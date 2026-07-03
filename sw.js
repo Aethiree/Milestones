@@ -1,4 +1,4 @@
-const CACHE = "hridhav-v1";
+const CACHE = "hridhav-v2";
 const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./icon-512-maskable.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {

@@ -1,6 +1,16 @@
 # Hridhav's First Year — Milestone Journal PWA
 
-Week-by-week development journal for Hridhav (born June 16, 2026). Installable, works fully offline, saves milestone checkmarks per device.
+Week-by-week development journal for Hridhav (born June 16, 2026). Installable, works offline, saves milestone checkmarks per device.
+
+## What's inside
+- 52 weeks of point-form notes: body, senses, mind, feelings, and parent tips
+- Vision panel per week: focus distance diagram + a simulation of what Hridhav actually sees
+- 24-hour sleep map, feeding amounts, and diaper norms for each stage
+- WHO growth chart (boys, 50th percentile) with the current month marked
+- AI chat ("Ask about Hridhav") that knows his exact age and the week being viewed
+
+## AI chat on GitHub Pages
+The chat calls the Anthropic API. On the GitHub-hosted version, tap the chat, ask a question, and when prompted paste an Anthropic API key (console.anthropic.com). The key is stored only in that device's localStorage and sent only to api.anthropic.com. Inside Claude.ai the chat works without a key.
 
 ## Deploy to GitHub Pages
 
