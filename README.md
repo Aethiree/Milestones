@@ -1,30 +1,25 @@
-# Hridhav's First Year — Milestone Journal PWA
+# First Year — Baby Journal (PWA)
 
-Week-by-week baby development journal. Installable, works offline, saves everything per device — and fully shareable: any parent can open the app, tap the sliders icon in the header, and set their own baby's name, sex, birth date & time, and due date. Pronouns, ages, week calculations, leap forecasts, and WHO growth data (boys/girls) all adapt instantly. Defaults to Hridhav (born June 16, 2026).
+Week-by-week baby development journal with daily tracking. Installable, works offline, saves everything per device. Fully shareable: any parent taps the sliders icon in the header and sets their own baby's name, sex, birth date & time, and due date — pronouns, ages, leap forecasts, and WHO growth data (boys/girls) all adapt. Defaults to Hridhav (born June 16, 2026).
 
-## What's inside
-- 52 weeks of point-form notes: body, senses, mind, feelings, and parent tips
-- Vision panel per week: focus distance diagram + a simulation of what Hridhav actually sees
-- 24-hour sleep map, feeding amounts, and diaper norms for each stage
-- WHO growth chart (boys, 50th percentile) with the current month marked
-- Leaps view: the mental-leaps framework with a 52-week storm/sunshine forecast, current weather status, and 7 expandable leap cards (storm signs, new skills, how to help)
-- Leap timing counts from the due date (editable in the Leaps tab, saved per device)
+## Tabs
+- **Today** — leap weather, this week's headline, quick log (feed / diaper / sleep timer) with today's counts vs. what's typical for this stage, what's coming up, and a dated list of firsts
+- **Journal** — 52 weeks of point-form notes: body, senses, mind, feelings, tips; vision simulator + focus distance; 24h sleep map; feeding amounts; diaper norms; growth marker; milestone checklist (dated when ticked); red flags; notes for the week
+- **Leaps** — mental-leaps framework: 52-week storm/sunshine forecast, current status, 7 expandable leap cards (counts from due date)
+- **Log** — 7-day charts (feeds, wet diapers, sleep) against typical bands, plus full history with delete
+- **Growth** — enter weight / length / head at checkups; plotted on WHO 3rd–97th percentile bands with an estimated percentile
+- **Health** — Ontario immunization schedule and Rourke well-baby visits with due dates, done-dates, and a "questions for the doctor" notepad
+
+## Backup & moving phones
+Header → sliders icon → Export copies a backup to the clipboard; paste it into the same box on another phone and tap Restore. Data is per device (no server, no account).
 
 ## Deploy to GitHub Pages
+1. Upload all files in this folder to the repository root
+2. Settings → Pages → Deploy from a branch → main / root
+3. Open `https://<username>.github.io/<repo>/` and Add to Home Screen
 
-1. Create a new repository (e.g. `hridhav-first-year`)
-2. Upload all files in this folder to the repository root:
-   `index.html`, `manifest.json`, `sw.js`, `icon-192.png`, `icon-512.png`, `icon-512-maskable.png`, `apple-touch-icon.png`
-3. Repository → Settings → Pages → Source: **Deploy from a branch** → Branch: **main** / root → Save
-4. Open `https://<your-username>.github.io/hridhav-first-year/`
-5. On a phone: Share → **Add to Home Screen** — it installs like an app and works offline afterward
+## Updating
+After editing `index.html`, bump the cache name in `sw.js` (e.g. `firstyear-v5` → `firstyear-v6`) so installed devices fetch the new version.
 
-## Updating the app later
-
-Edit `index.html`, then bump the cache version in `sw.js` (`hridhav-v1` → `hridhav-v2`) so installed devices pick up the new version.
-
-## Notes
-
-- All paths are relative, so it works from any repo name or subdirectory
-- Milestone checkmarks and the name are stored in each device's localStorage (per-device, not synced)
-- Content sources: CDC "Learn the Signs. Act Early." (2022), AAP HealthyChildren.org, WHO, NHS Start for Life, Zero to Three
+## Sources
+CDC "Learn the Signs. Act Early." (2022) · AAP HealthyChildren.org · WHO Child Growth Standards · NHS Start for Life · Zero to Three · Ontario immunization schedule · Rourke Baby Record. General information, not medical advice.
