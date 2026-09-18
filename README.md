@@ -6,6 +6,7 @@ Week-by-week baby development journal. Installable, works offline, saves everyth
 - **Today** — leap weather, this week's headline, what's coming up, and a dated list of firsts
 - **Journal** — 52 weeks of point-form notes: body, senses, mind, feelings, tips; vision simulator + focus distance; 24h sleep map; feeding amounts; diaper norms; growth marker; milestone checklist (dated when ticked); red flags; notes for the week
 - **Leaps** — mental-leaps framework: 52-week storm/sunshine forecast, current status, 7 expandable leap cards (counts from due date)
+- **Regressions** — sleep-regression forecast (4-month, 6-month, 8–10-month, 12-month, 18-month) with growth-spurt markers, and cards covering what is happening, signs, what helps, and when to call the doctor
 - **Growth** — enter weight / length / head at checkups; plotted on WHO 3rd–97th percentile bands with an estimated percentile
 - **Health** — Ontario immunization schedule and Rourke well-baby visits with due dates, done-dates, and a "questions for the doctor" notepad
 
